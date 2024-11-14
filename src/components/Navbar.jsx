@@ -14,12 +14,24 @@ const Navbar = () => {
   )
 }
 const Nav = styled.nav`
-    display: flex;
-    justify-content:center;
-    padding: 1rem;
-    background-color: #333;
-'
-`
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #333;
+`;
+
+const NavLink = styled(Link)`
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    color: #f39c12;
+  }
+`;
+
+
 
 
 export default Navbar
