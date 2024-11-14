@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Navbar = () => {
   return (
     <Nav>
-        Navl
+        <NavLink to={'/'}>Home</NavLink>
     </Nav>
   )
 }
