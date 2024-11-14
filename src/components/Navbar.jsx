@@ -13,5 +13,13 @@ const Navbar = () => {
     </Nav>
   )
 }
+const Nav = styled.nav`
+    display: flex;
+    justify-content:center;
+    padding: 1rem;
+    background-color: #333;
+'
+`
+
 
 export default Navbar
