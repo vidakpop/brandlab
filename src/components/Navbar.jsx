@@ -18,6 +18,7 @@ const Nav = styled.nav`
   justify-content: center;
   padding: 1rem;
   background-color: #333;
+  
 `;
 
 const NavLink = styled(Link)`
