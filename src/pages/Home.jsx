@@ -4,6 +4,15 @@ const Home = () => {
   return (
     <HomeContainer>
         <Hero>
+        <VideoBackground
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="./assets/main.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </VideoBackground>
             <h1>Welcome to Imelda's Brand Lab</h1>
             <p>Empowering Brands,Transforming Identities</p>
             <HeroButton>Learn More</HeroButton>
@@ -29,6 +38,19 @@ const Hero = styled.div`
   background-color: #f39c12;
   padding: 100px 0;
   color: #fff;
+  overflow:hidden; //ensure content doesn't overflow
+`;
+const VideoBackground = styled.video`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; // Send the video behind the content
+  transform: translate(-50%, -50%);
+  object-fit: cover; // Cover the entire container
 `;
 const HeroButton = styled.button`
   background-color: #f39c12;
