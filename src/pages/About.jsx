@@ -9,4 +9,9 @@ const About = () => {
   )
 }
 
+const AboutContainer = styled.div`
+  padding: 2rem;
+  text-align: center;
+`;
+
 export default About
