@@ -3,8 +3,9 @@ import { Link } from 'react-scroll'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className='fixed top-0 left-0 w-full bg-black bg-opacity-50 z-50'>
       
+
     </nav>
   )
 }
