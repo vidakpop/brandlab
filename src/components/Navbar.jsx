@@ -14,8 +14,36 @@ const Navbar = () => {
               Home
           </Link>
         </li>
+        <li>
+          <Link to='about' smooth duration={500} className='hover:underline'>
+              About
+          </Link>
+        </li>
+        <li>
+          <Link to='profile' smooth duration={500} className='hover:underline'>
+              Profile
+          </Link>
+        </li>
+        <li>
+          <Link to='merger' smooth duration={500} className='hover:underline'>
+              The Merger
+          </Link>
+        </li>
+
+        <li>
+          <Link to='services' smooth duration={500} className='hover:underline'>
+              Services
+          </Link>
+        </li>
+        <li>
+          <Link to='contact' smooth duration={500} className='hover:underline'>
+              Contact
+          </Link>
+        </li>
+
 
         </ul>
+        
       </div>
 
     </nav>
