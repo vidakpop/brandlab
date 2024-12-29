@@ -43,7 +43,7 @@ const Navbar = () => {
 
 
         </ul>
-        
+        <button className='md:hidden text-white'>Menu</button>
       </div>
 
     </nav>
