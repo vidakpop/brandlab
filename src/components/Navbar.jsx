@@ -8,12 +8,14 @@ const Navbar = () => {
         <h1 className='text-white text-2xl font-bold'>
           IMELDA BRAND LAB
         </h1>
+        <ul className='hidden md:flex space-x-6 text-white'> 
         <li>
           <Link to='hero' smooth duration={500} className='hover:underline'>
               Home
           </Link>
         </li>
 
+        </ul>
       </div>
 
     </nav>
