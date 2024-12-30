@@ -9,18 +9,14 @@ import HeroSection from './components/HeroSection'
 
 const App = () => {
   return (
-    <Router>
+    <div>
     
       <Navbar />
       <HeroSection />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />        
-
-      </Routes>
+      
 
 
-    </Router>
+    </div>
    
   )
 }
