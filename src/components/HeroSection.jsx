@@ -1,10 +1,23 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import Typed from 'react-typed'
+import { div } from 'framer-motion/client'
 
 const HeroSection = () => {
   return (
-    <div>HeroSection</div>
+    <div id='hero' className='bg-gradient-to-r from purple-500 to indigo-600 text-white h-screen flex items-center justify-center px-4 text-center'>
+       <motion.div 
+           initial={{opacity:0,y:-50}}
+           animate={{opacity:1,y:0}}
+           transition={{duration:1}}
+       >
+         <h1 className='text-5xl font-bold mb-4'>
+            Welcome to <span className='text-yellow-300'> IMELDA BRAND LAB</span>
+
+         </h1>
+
+       </motion.div>
+    </div>
   )
 }
 
