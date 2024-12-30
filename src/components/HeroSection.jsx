@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import Typed from 'react-typed'
-import { div } from 'framer-motion/client'
+
 
 const HeroSection = () => {
   return (

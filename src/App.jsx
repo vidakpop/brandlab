@@ -9,7 +9,7 @@ import HeroSection from './components/HeroSection'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-gray-50 text-gray-900'> 
     
       <Navbar />
       <HeroSection />
