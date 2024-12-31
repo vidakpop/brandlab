@@ -14,6 +14,12 @@ const AboutSection = () => {
         >
             About Imelda
         </motion.h2>
+        <p className='text-lg text-gray-700'>
+        Imelda is a passionate consultant dedicated to empowering individuals and
+        businesses to achieve their fullest potential. With expertise in digital
+        strategy, brand consulting, and content creation, Imelda has transformed
+        countless brands and careers.
+        </p>
 
     </div>
   )
