@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-import Typed from 'react-typed'
+import {Typed} from 'react-typed'
 
 
 const HeroSection = () => {
@@ -26,7 +26,9 @@ const HeroSection = () => {
              loop 
              className='text-xl font-light'  
         />
-        
+        <p className='mt-4 text-lg'>
+          Your teusted patner in brand consultancy and career transformation.
+        </p>
 
        </motion.div>
     </div>
