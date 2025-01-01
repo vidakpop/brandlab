@@ -8,6 +8,7 @@ import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
 import ProfileSection from './components/ProfileSection'
 import TheMergerSection from './components/TheMergerSection'
+import ServicesSection from './components/ServicesSection'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <AboutSection />
       <ProfileSection />
       <TheMergerSection />  
+      <ServicesSection />
       
 
 
