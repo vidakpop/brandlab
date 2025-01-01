@@ -18,7 +18,9 @@ const TheMergerSection = () => {
     ]
   return  (
     <div id='merger' className='max-w-7xl mx-auto px-6 py-20'>
-        
+        <h2 className='text-4xl font-bold text-center mb-10'>
+            The Merger
+        </h2>
 
     </div>
   )
