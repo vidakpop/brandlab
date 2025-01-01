@@ -16,7 +16,10 @@ const ServicesSection = () => {
   return (
     <div id='services' className='max-w-7xl mx-auto px-6 py-20 bg-gray-100'>
         <h2 className='text-4xl font-bold text-center mb-10'>Our Services</h2>
-        <div >
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
+            {services.map((service,index)=>(
+                
+            ))}
 
         </div>
 
