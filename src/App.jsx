@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
+import ProfileSection from './components/ProfileSection'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <ProfileSection />
       
 
 
