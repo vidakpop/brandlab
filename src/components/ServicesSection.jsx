@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import { FaBriefcase, FaLaptop, FaPencilAlt, FaChartLine, FaCogs, FaBullhorn, FaLinkedin, FaPenNib, FaBuilding, FaLightbulb, FaFileAlt, FaFeatherAlt, FaHandsHelping } from "react-icons/fa";
 
 const services = [
