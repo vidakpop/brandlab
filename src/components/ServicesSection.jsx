@@ -14,7 +14,9 @@ const services = [
 ]
 const ServicesSection = () => {
   return (
-    <div>ServicesSection</div>
+    <div id='services' className='max-w-7xl mx-auto px-6 py-20 bg-gray-100'>
+
+    </div>
   )
 }
 
