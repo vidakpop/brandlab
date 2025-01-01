@@ -21,6 +21,18 @@ const TheMergerSection = () => {
         <h2 className='text-4xl font-bold text-center mb-10'>
             The Merger
         </h2>
+        <div className='grid md:grid-cols-3 gap-6'>
+            {cohorts.map((cohort,index)=>(
+                <motion.div 
+                    key={index}
+                    className='bg-white p-6 rounded-lg shadow-lg'
+                    whileHover={{scale:1.05}}
+                >
+
+                </motion.div>
+            )}
+
+        </div>
 
     </div>
   )
