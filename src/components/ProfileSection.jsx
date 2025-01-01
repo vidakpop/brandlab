@@ -20,8 +20,20 @@ const ProfileSection = () => {
             transition={{duration:1}}
             className='text-lg text-gray-700'>
          <p className='mb-4'>
-         Imelda Mugambi, the visionary behind IMELDA BRAND LAB, is a dynamic and
-         driven individual with a passion for branding and digital innovation.
+                Imelda Mugambi, the visionary behind IMELDA BRAND LAB, is a dynamic and
+                driven individual with a passion for branding and digital innovation.
+         </p>
+         <p className='mb-4'>
+            With years of experience in resume writing, digital marketing, content
+            creation, and public relations, Imelda has a track record of helping
+             individuals and businesses achieve excellence. Her unique blend of
+            creativity, strategy, and mentorship sets her apart as a leader in the
+            field.
+         </p>
+         <p>
+             Whether it's building a personal brand, crafting compelling content, or
+            designing impactful strategies, Imelda is committed to helping her
+            clients shine.
          </p>
 
         </motion.div>
