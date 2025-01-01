@@ -23,6 +23,7 @@ const ServicesSection = () => {
                     className='bg-white p-6 shadow-lg rounded-lg text-center'
                     whileHover={{scale:1.05}}>
                     <div className='text-5xl text-indigo-600 mb-4'>{service.icon}</div>
+                    <h3 className='text-xl font-bold mb-2'>{service.title}</h3>
                 </motion.div>
             ))}
 
