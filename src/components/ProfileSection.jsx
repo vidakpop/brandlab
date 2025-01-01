@@ -19,6 +19,9 @@ const ProfileSection = () => {
             animate={{opacity:1,scale:1}}
             transition={{duration:1}}
             className='text-lg text-gray-700'>
+         <div className='flex flex-col md:flex-row items-center md:space-x-6'>
+            <img src="assets" alt="Imelda Mugambi" className='w-40 h-40 rounded-full mb-4 md:mb-0' />
+         </div>
          <p className='mb-4'>
                 Imelda Mugambi, the visionary behind IMELDA BRAND LAB, is a dynamic and
                 driven individual with a passion for branding and digital innovation.
