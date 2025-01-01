@@ -7,6 +7,7 @@ import About from './pages/About'
 import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
 import ProfileSection from './components/ProfileSection'
+import TheMergerSection from './components/TheMergerSection'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <HeroSection />
       <AboutSection />
       <ProfileSection />
+      <TheMergerSection />  
       
 
 
