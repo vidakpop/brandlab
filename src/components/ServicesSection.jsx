@@ -18,7 +18,9 @@ const ServicesSection = () => {
         <h2 className='text-4xl font-bold text-center mb-10'>Our Services</h2>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
             {services.map((service,index)=>(
-                
+                <motion.div>
+                    
+                </motion.div>
             ))}
 
         </div>
