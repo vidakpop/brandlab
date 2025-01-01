@@ -22,7 +22,7 @@ const ServicesSection = () => {
                     key={index}
                     className='bg-white p-6 shadow-lg rounded-lg text-center'
                     whileHover={{scale:1.05}}>
-                    
+                    <div className='text-5xl text-indigo-600 mb-4'>{service.icon}</div>
                 </motion.div>
             ))}
 
