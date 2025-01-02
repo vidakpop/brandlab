@@ -132,11 +132,11 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <br />
+     
 
 
       {/* Contact Us Section */}
-      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="border-t border-gray-700 mt-12 pt-6 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
           <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
           <p className="text-gray-400 mb-6">
