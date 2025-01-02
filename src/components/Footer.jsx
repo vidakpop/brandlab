@@ -16,30 +16,30 @@ const Footer = () => {
     {
       icon: <FaEnvelope />,
       label: "Email",
-      link: "mailto:contact@yourdomain.com",
+      link: "mailto:imeldamugambiconsultancy@gmail.com",
     },
     {
       icon: <FaPhone />,
       label: "Call",
-      link: "tel:+1234567890",
+      link: "tel:+254793287076",
     },
     {
       icon: <FaWhatsapp />,
       label: "WhatsApp",
-      link: "https://wa.me/1234567890?text=Hi%20there!%20I%20would%20like%20to%20inquire%20about%20your%20services.",
+      link: "https://wa.me/254793287076?text=Hi%20there!%20I%20would%20like%20to%20inquire%20about%20your%20services.",
     },
   ];
 
   const developerInfo = {
-    name: "Developed by John Doe",
-    link: "https://github.com/johndoe",
+    name: "Developed by Cyberjiutsu",
+    link: "https://github.com/vidakpop",
   };
 
   const socialLinks = [
     { icon: <FaFacebook />, link: "https://facebook.com" },
     { icon: <FaTwitter />, link: "https://twitter.com" },
     { icon: <FaInstagram />, link: "https://instagram.com" },
-    { icon: <FaGithub />, link: "https://github.com" },
+    { icon: <FaGithub />, link: "https://github.com/vidakpop" },
     { icon: <FaLinkedin />, link: "https://linkedin.com" },
   ];
 
@@ -71,7 +71,8 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-gray-800 to-black text-white py-12 relative">
       {/* Floating Glowing Shapes */}
-      <div className="absolute -z-10 inset-0 overflow-hidden">
+      <div
+            id='contact' className="absolute -z-10 inset-0 overflow-hidden">
         <motion.div
           className="absolute w-[300px] h-[300px] bg-pink-500 rounded-full opacity-20 top-10 left-10 filter blur-3xl"
           animate={{

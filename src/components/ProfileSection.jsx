@@ -93,7 +93,7 @@ const ProfileSection = () => {
         >
           <motion.button
             whileHover={{ scale: 1.1 }}
-            id='contact'
+            to='contact'
             className="px-8 py-3 bg-purple-500 text-white font-bold rounded-full shadow-lg hover:bg-purple-600"
           >
             Connect with Imelda
