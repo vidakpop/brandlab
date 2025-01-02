@@ -133,7 +133,7 @@ const Footer = () => {
         </div>
       </div>
       <br />
-      
+
 
       {/* Contact Us Section */}
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -204,7 +204,7 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="border-t border-gray-700 mt-12 pt-6 text-center">
         <p className="text-gray-400">
-          &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+          &copy; {new Date().getFullYear()} Cyberjiutsu. All rights reserved.
         </p>
       </div>
     </footer>
