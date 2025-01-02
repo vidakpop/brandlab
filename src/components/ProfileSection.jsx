@@ -6,7 +6,7 @@ const ProfileSection = () => {
   return (
     <div
       id="profile"
-      className="relative max-w-7xl mx-auto px-6 py-20 text-center bg-gradient-to-bl from-[#1a1a2e] to-[#16213e] text-white overflow-hidden"
+      className="relative max-w-7xl mx-auto px-6 py-20 text-center bg-black overflow-hidden"
     >
       {/* Background Animated Glows */}
       <div className="absolute inset-0">
