@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <div
       id="about"
-      className="relative max-w-7xl mx-auto px-6 py-20 text-center bg-gradient-to-bl from-[#2a2a40] to-[#1d1d2b] text-white overflow-hidden"
+      className="relative max-w-7xl mx-auto px-6 py-20 text-center bg-black overflow-hidden"
     >
       {/* Background Glow Effects to make it futuristic */}
       <div className="absolute inset-0">
