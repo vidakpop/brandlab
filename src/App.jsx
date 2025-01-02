@@ -9,6 +9,7 @@ import AboutSection from './components/AboutSection'
 import ProfileSection from './components/ProfileSection'
 import TheMergerSection from './components/TheMergerSection'
 import ServicesSection from './components/ServicesSection'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <ProfileSection />
       <TheMergerSection />  
       <ServicesSection />
+      <Footer/>
       
 
 
