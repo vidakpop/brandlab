@@ -95,7 +95,8 @@ const ProfileSection = () => {
             whileHover={{ scale: 1.1 }}
             to='contact'
             className="px-8 py-3 bg-purple-500 text-white font-bold rounded-full shadow-lg hover:bg-purple-600"
-          >
+            onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+         >
             Connect with Imelda
           </motion.button>
         </motion.div>
