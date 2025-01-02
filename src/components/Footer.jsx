@@ -97,6 +97,43 @@ const Footer = () => {
           }}
         />
       </div>
+      {/* FAQ Section */}
+      <div className="max-w-6xl mx-auto px-6 mt-12">
+        <h2 className="text-2xl font-bold mb-6 text-center">FAQs</h2>
+        <div className="space-y-6">
+          {faqs.map((faq, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+              className="bg-gray-900 p-6 rounded-lg shadow-lg"
+            >
+              <button
+                className="w-full text-left text-gray-300 text-lg font-medium focus:outline-none"
+                onClick={() => toggleFAQ(index)}
+              >
+                {faq.question}
+                <span className="float-right text-pink-400">
+                  {activeFAQ === index ? "-" : "+"}
+                </span>
+              </button>
+              {activeFAQ === index && (
+                <motion.div
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: "auto", opacity: 1 }}
+                  className="mt-4 text-gray-400"
+                >
+                  {faq.answer}
+                </motion.div>
+              )}
+            </motion.div>
+          ))}
+        </div>
+      </div>
+      <br />
+      
 
       {/* Contact Us Section */}
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
