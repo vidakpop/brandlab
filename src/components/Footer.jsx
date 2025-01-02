@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import {
   FaEnvelope,
@@ -42,6 +42,31 @@ const Footer = () => {
     { icon: <FaGithub />, link: "https://github.com" },
     { icon: <FaLinkedin />, link: "https://linkedin.com" },
   ];
+
+  const faqs = [
+    {
+      question: "What is Social Media Auditing?",
+      answer: "Social media auditing involves analyzing your accounts to evaluate performance and improve your online presence.",
+    },
+    {
+      question: "How does LinkedIn Optimization work?",
+      answer: "We optimize your LinkedIn profile to enhance visibility and attract professional opportunities.",
+    },
+    {
+      question: "What is included in Content Strategy services?",
+      answer: "Our content strategy includes planning, creating, and distributing content to align with your goals.",
+    },
+    {
+      question: "What is Empowerment Coaching?",
+      answer: "Empowerment coaching helps you achieve personal and professional growth by focusing on your strengths and aspirations.",
+    },
+  ];
+
+  const [activeFAQ, setActiveFAQ] = useState(null);
+
+  const toggleFAQ = (index) => {
+    setActiveFAQ(activeFAQ === index ? null : index);
+  };
 
   return (
     <footer className="bg-gradient-to-r from-gray-800 to-black text-white py-12 relative">
@@ -136,6 +161,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      
 
       {/* Footer Bottom */}
       <div className="border-t border-gray-700 mt-12 pt-6 text-center">
