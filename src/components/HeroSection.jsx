@@ -82,6 +82,7 @@ const HeroSection = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           className="mt-6 px-6 sm:px-8 py-2 sm:py-3 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-semibold rounded-full shadow-lg neon-glow-button"
+          onClick={() => document.getElementById('merger').scrollIntoView({ behavior: 'smooth' })}
         >
           Get Started
         </motion.button>
