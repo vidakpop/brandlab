@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ReactTyped as Typed } from "react-typed";
+import main from '../assets/brand.mp4';
 
 const HeroSection = () => {
   return (
@@ -11,7 +12,7 @@ const HeroSection = () => {
       {/* Video Background */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/path-to-your-video.mp4" // Replace with the path to your video
+        src={main} // Replace with the path to your video
         autoPlay
         loop
         muted
