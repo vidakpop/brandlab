@@ -49,7 +49,7 @@ const ServicesSection = () => {
           }}
         />
         <motion.div
-          className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-pink-500 opacity-30 rounded-full filter blur-3xl"
+          className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-blue-500 opacity-30 rounded-full filter blur-3xl"
           animate={{
             scale: [1.2, 0.8, 1.2],
             rotate: [0, -360],
