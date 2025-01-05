@@ -97,7 +97,7 @@ const TheMergerSection = () => {
               whileHover={{
                 scale: 1.1,
                 backgroundColor: "#7c3aed",
-                boxShadow: "0px 4px 15px rgba(124, 58, 237, 0.6)",
+                boxShadow: "0px 4px 15px rgba(33, 106, 216, 0.6)",
               }}
               href={cohort.link}
               target="_blank"
