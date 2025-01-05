@@ -38,7 +38,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: <FaFacebook />, link: "https://facebook.com" },
     { icon: <FaTwitter />, link: "https://twitter.com" },
-    { icon: <FaInstagram />, link: "https://instagram.com" },
+    { icon: <FaInstagram />, link: "https://www.instagram.com/imelda_mugambi/profilecard/?igsh=MWNhOTc5NHN6OW5obA==" },
     { icon: <FaGithub />, link: "https://github.com/vidakpop" },
     { icon: <FaLinkedin />, link: "https://linkedin.com" },
   ];
