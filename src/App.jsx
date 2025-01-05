@@ -17,8 +17,9 @@ const App = () => {
     
       <Navbar />
       <HeroSection />
-      <AboutSection />
       <ProfileSection />
+      <AboutSection />
+      
       <TheMergerSection />  
       <ServicesSection />
       <Footer/>
