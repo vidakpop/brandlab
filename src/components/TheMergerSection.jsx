@@ -71,7 +71,7 @@ const TheMergerSection = () => {
       <p className="text-lg text-gray-300 mb-6">
         The Program is inclusive of:
       </p>
-      <ul className="list-disc list-inside text-justify text-gray-300 mb-6 space-y-2">
+      <ul className="list-disc list-inside text-center text-gray-300 mb-6 space-y-2">
         <li>20 day LinkedIn Posting Challenge</li>
         <li>5 Training Sessions</li>
         <li>Mentorship and Reviews</li>
