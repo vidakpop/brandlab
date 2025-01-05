@@ -171,7 +171,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
-            className="text-pink-400 text-lg font-semibold"
+            className="text-blue-400 text-lg font-semibold"
           >
             {developerInfo.name}
           </motion.a>
