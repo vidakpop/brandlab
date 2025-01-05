@@ -60,7 +60,7 @@ const HeroSection = () => {
           className="text-4xl sm:text-6xl font-extrabold text-white mb-4"
         >
           Welcome to{" "}
-          <span className="text-pink-500 neon-glow">IMELDA BRAND LAB</span>
+          <span className="text-blue-500 neon-glow">IMELDA BRAND LAB</span>
         </motion.h1>
 
         <Typed
