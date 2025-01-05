@@ -53,7 +53,7 @@ const TheMergerSection = () => {
         />
       </div>
 
-      {/* Heading */}
+      /* Heading */
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -63,11 +63,19 @@ const TheMergerSection = () => {
         The Merger
       </motion.h2>
       <p className="text-lg text-gray-300 mb-6">
-      The goal is to create brands that thrive in the digital space , especially on LinkedIn.
-Inclusive of;
-20 day LinkedIn Posting Challenge, 5 training Sessions , Mentorship and Reviews,
-        </p>
-      {/* Cohorts Grid */}
+        The goal is to create brands that thrive in the digital space.
+      </p>
+      <p className="text-lg text-gray-300 mb-6">
+        The Main Platform Focus is LinkedIn
+      </p>
+      <p className="text-lg text-gray-300 mb-6">
+        The Program is inclusive of:
+      </p>
+      <ol className="list-decimal list-inside text-left text-gray-300 mb-6 space-y-2 text-center " >
+        <li>20 day LinkedIn Posting Challenge</li>
+        <li>5 Training Sessions</li>
+        <li>Mentorship and Reviews</li>
+      </ol>}
       <div className="grid md:grid-cols-3 gap-8">
         {cohorts.map((cohort, index) => (
           <motion.div
