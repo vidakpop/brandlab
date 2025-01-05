@@ -21,7 +21,7 @@ const Navbar = () => {
               to="hero"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
             >
               Home
             </Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
               to="about"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
             >
               About
             </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
               to="profile"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
             >
               Profile
             </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
               to="merger"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
             >
               The Merger
             </Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
               to="services"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
             >
               Services
             </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
               to="contact"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
             >
               Contact
             </Link>
