@@ -102,7 +102,7 @@ const TheMergerSection = () => {
               href={cohort.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-purple-500 text-white font-semibold rounded-full shadow-md hover:bg-purple-600 transition"
+              className="px-6 py-3 bg-blue-500 text-white font-semibold rounded-full shadow-md hover:bg-purple-600 transition"
             >
               Book Now
             </motion.a>
