@@ -40,7 +40,7 @@ const TheMergerSection = () => {
             }}
           />
           <motion.div
-            className="absolute bottom-20 right-10 w-72 h-72 bg-purple-600 opacity-30 rounded-full filter blur-3xl"
+            className="absolute bottom-20 right-10 w-72 h-72 bg-blue-600 opacity-30 rounded-full filter blur-3xl"
             animate={{
           scale: [1.2, 0.8, 1.2],
           rotate: [0, -360],
