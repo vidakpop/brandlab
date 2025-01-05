@@ -89,7 +89,7 @@ const Navbar = () => {
 
       {/* Mobile Menu (Toggled by hamburger) */}
       <div
-        className={`md:hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center transition-all duration-300 transform ${
+        className={`md:hidden fixed inset-0 bg-black flex items-center justify-center transition-all duration-300 transform ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
