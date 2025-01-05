@@ -74,7 +74,7 @@ const Footer = () => {
       <div
             id='contact' className="absolute -z-10 inset-0 overflow-hidden">
         <motion.div
-          className="absolute w-[300px] h-[300px] bg-pink-500 rounded-full opacity-20 top-10 left-10 filter blur-3xl"
+          className="absolute w-[300px] h-[300px] bg-blue-500 rounded-full opacity-20 top-10 left-10 filter blur-3xl"
           animate={{
             scale: [1, 1.2, 1],
             rotate: [0, 360],
@@ -116,7 +116,7 @@ const Footer = () => {
                 onClick={() => toggleFAQ(index)}
               >
                 {faq.question}
-                <span className="float-right text-pink-400">
+                <span className="float-right text-blue-400">
                   {activeFAQ === index ? "-" : "+"}
                 </span>
               </button>

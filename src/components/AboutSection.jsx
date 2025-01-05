@@ -10,7 +10,7 @@ const AboutSection = () => {
       {/* Background Glow Effects to make it futuristic */}
       <div className="absolute inset-0">
         <motion.div
-          className="absolute top-0 left-10 w-72 h-72 bg-pink-500 opacity-30 rounded-full filter blur-3xl"
+          className="absolute top-0 left-10 w-72 h-72 bg-blue-500 opacity-30 rounded-full filter blur-3xl"
           animate={{
             x: [0, 50, -50, 0],
             y: [0, -50, 50, 0],

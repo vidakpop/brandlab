@@ -21,7 +21,7 @@ const HeroSection = () => {
       {/* Cyberpunk Glow Background Elements */}
       <div className="absolute inset-0">
         <motion.div
-          className="absolute -top-20 -left-20 w-96 h-96 bg-pink-500 opacity-30 rounded-full filter blur-3xl"
+          className="absolute -top-20 -left-20 w-96 h-96 bg-blue-500 opacity-30 rounded-full filter blur-3xl"
           animate={{
             x: [0, 50, -50, 0],
             y: [0, -50, 50, 0],
