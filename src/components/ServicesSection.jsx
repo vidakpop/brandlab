@@ -83,11 +83,11 @@ const ServicesSection = () => {
             whileHover={{
               scale: 1.1,
               rotate: 2,
-              boxShadow: "0px 15px 30px rgba(255, 255, 255, 0.3)",
+              boxShadow: "0px 15px 30px rgba(0, 150, 255, 0.8)",
             }}
             className="relative bg-white/10 p-8 rounded-xl shadow-xl backdrop-blur-md border border-white/20 text-center"
           >
-            <div className="text-6xl mb-6 text-[#ffdd57]">
+            <div className="text-6xl mb-6 text-[#00aaff]">
               {service.icon}
             </div>
             <motion.h3
