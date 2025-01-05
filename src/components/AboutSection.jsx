@@ -64,7 +64,7 @@ const AboutSection = () => {
             whileHover={{ scale: 1.1 }}
             className="flex flex-col items-center"
           >
-            <h3 className="text-4xl font-bold text-pink-500 neon-glow">150+</h3>
+            <h3 className="text-4xl font-bold text-pink-500 neon-glow">100+</h3>
             <p className="text-gray-300">Brands Empowered</p>
           </motion.div>
 
@@ -72,7 +72,7 @@ const AboutSection = () => {
             whileHover={{ scale: 1.1 }}
             className="flex flex-col items-center"
           >
-            <h3 className="text-4xl font-bold text-blue-500 neon-glow">200+</h3>
+            <h3 className="text-4xl font-bold text-blue-500 neon-glow">150+</h3>
             <p className="text-gray-300">Careers Transformed</p>
           </motion.div>
 
@@ -81,7 +81,7 @@ const AboutSection = () => {
             className="flex flex-col items-center"
           >
             <h3 className="text-4xl font-bold text-blue-500 neon-glow">
-              10+ Years
+              1 Year
             </h3>
             <p className="text-gray-300">Industry Experience</p>
           </motion.div>
