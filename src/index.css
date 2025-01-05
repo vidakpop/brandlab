@@ -5,15 +5,15 @@
 
 /* Neon Glow */
 .neon-glow {
-    text-shadow: 0 0 8px rgba(255, 0, 150, 0.8), 0 0 20px rgba(255, 0, 150, 0.6);
+  text-shadow: 0 0 8px rgba(0, 150, 255, 0.8), 0 0 20px rgba(0, 150, 255, 0.6);
   }
   
   .neon-glow-button {
-    box-shadow: 0 0 10px rgba(255, 0, 150, 0.8), 0 0 40px rgba(255, 0, 150, 0.6);
+  box-shadow: 0 0 10px rgba(0, 150, 255, 0.8), 0 0 40px rgba(0, 150, 255, 0.6);
   }
   
   .neon-glow-button:hover {
-    box-shadow: 0 0 20px rgba(255, 0, 150, 1), 0 0 50px rgba(255, 0, 150, 0.8);
+  box-shadow: 0 0 20px rgba(0, 150, 255, 1), 0 0 50px rgba(0, 150, 255, 0.8);
   }
 /* Automatically apply Tailwind's responsive utilities */
 @layer utilities {

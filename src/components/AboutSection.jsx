@@ -80,7 +80,7 @@ const AboutSection = () => {
             whileHover={{ scale: 1.1 }}
             className="flex flex-col items-center"
           >
-            <h3 className="text-4xl font-bold text-purple-500 neon-glow">
+            <h3 className="text-4xl font-bold text-blue-500 neon-glow">
               10+ Years
             </h3>
             <p className="text-gray-300">Industry Experience</p>

@@ -11,7 +11,7 @@ const ProfileSection = () => {
       {/* Background Animated Glows */}
       <div className="absolute inset-0">
         <motion.div
-          className="absolute top-10 left-20 w-96 h-96 bg-purple-500 opacity-25 rounded-full filter blur-3xl"
+          className="absolute top-10 left-20 w-96 h-96 bg-blue-500 opacity-25 rounded-full filter blur-3xl"
           animate={{
             x: [0, 50, -50, 0],
             y: [0, -50, 50, 0],
@@ -63,7 +63,7 @@ const ProfileSection = () => {
           <img
             src={imelda}
             alt="Imelda Mugambi"
-            className="w-40 h-40 rounded-full shadow-xl border-4 border-purple-500 neon-glow mb-6 md:mb-0"
+            className="w-40 h-40 rounded-full shadow-xl border-4 border-blue-500 neon-glow mb-6 md:mb-0"
           />
           <div className="text-left text-gray-300 space-y-4">
             <p>
@@ -92,7 +92,7 @@ const ProfileSection = () => {
           <motion.button
             whileHover={{ scale: 1.1 }}
             to='contact'
-            className="px-8 py-3 bg-purple-500 text-white font-bold rounded-full shadow-lg hover:bg-purple-600"
+            className="px-8 py-3 bg-blue-500 text-white font-bold rounded-full shadow-lg hover:bg-blue-600"
             onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
          >
             Connect with Imelda
