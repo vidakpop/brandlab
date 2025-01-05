@@ -71,9 +71,7 @@ const ProfileSection = () => {
             
             </p>
             <p>
-              With years of experience in resume writing, digital marketing, content
-              creation, and public relations, Imelda has a track record of helping
-              individuals and businesses achieve excellence.
+            With experience in digital marketing, communication and public relations, Imelda has track record of helping individuals and businesses achieve digital excellence.
             </p>
             <p>
               Her unique blend of creativity, strategy, and mentorship sets her apart as
