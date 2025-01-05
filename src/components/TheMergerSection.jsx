@@ -62,7 +62,11 @@ const TheMergerSection = () => {
       >
         The Merger
       </motion.h2>
-
+      <p className="text-lg text-gray-300 mb-6">
+      The goal is to create brands that thrive in the digital space , especially on LinkedIn.
+Inclusive of;
+20 day LinkedIn Posting Challenge, 5 training Sessions , Mentorship and Reviews,
+        </p>
       {/* Cohorts Grid */}
       <div className="grid md:grid-cols-3 gap-8">
         {cohorts.map((cohort, index) => (
