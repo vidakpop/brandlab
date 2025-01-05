@@ -71,11 +71,11 @@ const TheMergerSection = () => {
       <p className="text-lg text-gray-300 mb-6">
         The Program is inclusive of:
       </p>
-      <ol className="list-decimal list-inside text-left text-gray-300 mb-6 space-y-2 text-center " >
+      <ul className="list-disc list-outside text-center text-gray-300 mb-6 space-y-2">
         <li>20 day LinkedIn Posting Challenge</li>
         <li>5 Training Sessions</li>
         <li>Mentorship and Reviews</li>
-      </ol>}
+      </ul> 
       <div className="grid md:grid-cols-3 gap-8">
         {cohorts.map((cohort, index) => (
           <motion.div
