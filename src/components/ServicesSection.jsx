@@ -32,12 +32,12 @@ const ServicesSection = () => {
   return (
     <div
       id="services"
-      className="relative max-w-7xl mx-auto px-6 py-20 bg-gradient-to-b from-[#0097b2] via-[blue] to-[#003b6f] text-white"
+      className="relative max-w-7xl mx-auto px-6 py-20 text-center bg-black overflow-hidden text-white"
     >
       {/* Background Layers */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <motion.div
-          className="absolute top-0 left-0 w-[500px] h-[500px] bg-indigo-400 opacity-30 rounded-full filter blur-3xl"
+          className="absolute top-0 left-0 w-[500px] h-[500px] bg-blue-400 opacity-30 rounded-full filter blur-3xl"
           animate={{
             scale: [0.8, 1.2, 0.8],
             rotate: [0, 360],
