@@ -32,7 +32,7 @@ const ServicesSection = () => {
   return (
     <div
       id="services"
-      className="relative max-w-7xl mx-auto px-6 py-20 bg-gradient-to-r from-[#3b82f6] via-[#9333ea] to-[#f43f5e] text-white"
+      className="relative max-w-7xl mx-auto px-6 py-20 bg-gradient-to-r from-[#0097b2] via-[#ff6f61] to-[#003b6f] text-white"
     >
       {/* Background Layers */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
