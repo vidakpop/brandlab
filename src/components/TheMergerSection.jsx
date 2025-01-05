@@ -90,7 +90,7 @@ const TheMergerSection = () => {
           >
             {cohort.title}
           </motion.h3>
-          <p className="text-gray-300 mb-6">{cohort.description}</p>
+          <p className="text-gray-300 mb-6"><br /></p>
 
           {/* Book Now Button */}
             <motion.a
