@@ -25,7 +25,7 @@ const TheMergerSection = () => {
       id="merger"
       className="relative max-w-7xl mx-auto px-6 py-20 text-center bg-black overflow-hidden text-white"
     >
-      /* Background Effects */
+      {/* Background Layers */}
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <motion.div
             className="absolute top-20 left-10 w-96 h-96 bg-blue-500 opacity-30 rounded-full filter blur-3xl"
@@ -53,7 +53,7 @@ const TheMergerSection = () => {
           />
         </div>
 
-        /* Heading */
+        {/* Heading */}
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
