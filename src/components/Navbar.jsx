@@ -99,7 +99,7 @@ const Navbar = () => {
               to="hero"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
               onClick={toggleMenu}
             >
               Home
@@ -110,7 +110,7 @@ const Navbar = () => {
               to="about"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
               onClick={toggleMenu}
             >
               About
@@ -121,7 +121,7 @@ const Navbar = () => {
               to="profile"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
               onClick={toggleMenu}
             >
               Profile
@@ -132,7 +132,7 @@ const Navbar = () => {
               to="merger"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
               onClick={toggleMenu}
             >
               The Merger
@@ -143,7 +143,7 @@ const Navbar = () => {
               to="services"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
               onClick={toggleMenu}
             >
               Services
@@ -154,7 +154,7 @@ const Navbar = () => {
               to="contact"
               smooth
               duration={500}
-              className="hover:text-pink-500 transition-colors"
+              className="hover:text-blue-500 transition-colors"
               onClick={toggleMenu}
             >
               Contact
