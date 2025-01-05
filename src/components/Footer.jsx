@@ -151,7 +151,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
-                className="flex items-center text-gray-300 hover:text-pink-400"
+                className="flex items-center text-gray-300 hover:text-blue-400"
               >
                 <span className="text-2xl mr-3">{contact.icon}</span>
                 <span>{contact.label}</span>
