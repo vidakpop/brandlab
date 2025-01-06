@@ -63,7 +63,7 @@ const TheMergerSection = () => {
           The Merger
         </motion.h2>
         <p className="text-lg text-gray-300 mb-6">
-          The goal is to create brands that thrive in the digital space.
+        The Merger Program is designed to create brands that thrive in the digital space, with a primary focus on LinkedIn. Through this program, participants gain the skills and resources needed to stand out, achieve visibility, and make a lasting impact in their fields.
         </p>
         <p className="text-lg text-gray-300 mb-6">
           The Main Platform Focus is LinkedIn
