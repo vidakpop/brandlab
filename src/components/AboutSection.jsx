@@ -52,10 +52,12 @@ const AboutSection = () => {
         </motion.h2>
 
         <p className="text-lg text-gray-300 mb-6">
-          Imelda is a passionate consultant dedicated to empowering individuals
-          and businesses to achieve their fullest potential. With expertise in
-          digital strategy, brand consulting, and content creation, Imelda has
-          transformed countless brands and careers.
+        At Imelda's Brand Lab, we empower professionals, startups, and organizations to achieve digital excellence through impactful communication strategies designed to amplify visibility and extend reach.
+
+        </p>
+        <p className="text-lg text-gray-300 mb-6">
+        Our consultancy is driven by a team of dedicated professionals committed to crafting branding solutions that stand the test of time. Beyond the first consultation, we deliver efficient, tailored, and top-notch services both inside and outside the boardroom.
+
         </p>
 
         {/* Animated Stats Section */}
