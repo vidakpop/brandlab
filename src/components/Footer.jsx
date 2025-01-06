@@ -167,6 +167,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
+        {/* Contact Us Section */}
         <div>
           <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
           <p className="text-gray-400 mb-6">
