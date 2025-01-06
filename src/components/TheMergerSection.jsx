@@ -5,17 +5,17 @@ const TheMergerSection = () => {
   const cohorts = [
     {
       title: "April Cohort",
-      description: "Community Approach, LinkedIn Posting Challenge, Mentorship, Review",
+      description: "Your future self will thank you for acting fast. And hey, if you wait too long, you might just have to settle for FOMO. 😜",
       link: "https://forms.gle/example1", // Replace with actual Google Form link
     },
     {
       title: "August Cohort",
-      description: "Community Approach, LinkedIn Posting Challenge, Mentorship, Review",
+      description: "This offer is hotter than your morning coffee ☕ and it's slipping away fast! Don't let it pass you by",
       link: "https://forms.gle/example2", // Replace with actual Google Form link
     },
     {
       title: "December Cohort",
-      description: "Community Approach, LinkedIn Posting Challenge, Mentorship, Review",
+      description: "Don't be the one hearing about this deal after it's gone! 😱 Time's ticking, and the clock’s almost out. ⏰",
       link: "https://forms.gle/example3", // Replace with actual Google Form link
     },
   ];
