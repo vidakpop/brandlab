@@ -48,7 +48,7 @@ const AboutSection = () => {
           transition={{ duration: 1 }}
           className="text-5xl font-extrabold text-white neon-glow mb-6"
         >
-          About Imelda
+          About Imelda's Brand Lab
         </motion.h2>
 
         <p className="text-lg text-gray-300 mb-6">
