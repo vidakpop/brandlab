@@ -179,10 +179,11 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
-            className="text-blue-400 text-lg font-semibold"
+            className="text-blue-400 text-lg font-semibold mb-4"
           >
             {developerInfo.name}
           </motion.a>
+          
           <div className="flex space-x-4 mb-4" >
             {DeveloperLinks.map((social, index) => (
               <motion.a
