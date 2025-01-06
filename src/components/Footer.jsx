@@ -183,8 +183,8 @@ const Footer = () => {
           >
             {developerInfo.name}
           </motion.a>
-          <div className="flex space-x-4" >
-            {socialLinks.map((social, index) => (
+          <div className="flex space-x-4 mb-4" >
+            {DeveloperLinks.map((social, index) => (
               <motion.a
                 key={index}
                 href={social.link}
