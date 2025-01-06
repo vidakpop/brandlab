@@ -38,7 +38,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: <FaFacebook />, link: "https://www.facebook.com/profile.php?id=61552745588338&mibextid=ZbWKwL" },
-    { icon: <FaTwitter />, link: "https://twitter.com" },
+    
     { icon: <FaInstagram />, link: "https://www.instagram.com/imelda_mugambi/profilecard/?igsh=MWNhOTc5NHN6OW5obA==" },
    
     { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/imelda-mugambi-digitalconsultant" },
@@ -176,6 +176,17 @@ const Footer = () => {
           >
             {developerInfo.name}
           </motion.a>
+          <motion.a
+               
+                href={developerInfo.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.2 }}
+                className="text-gray-300 hover:text-indigo-400 text-3xl mt-4 center"
+              >
+                {developerInfo.icon}
+              </motion.a>
+
         </div>
 
         {/* Social Media Links */}
