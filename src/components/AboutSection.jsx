@@ -66,7 +66,7 @@ const AboutSection = () => {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-5xl font-extrabold text-blue neon-glow mb-6"
+          className="text-5xl font-extrabold text-[#ff6f61] neon-glow mb-6"
         >
           Our Vision
         </motion.h3>
