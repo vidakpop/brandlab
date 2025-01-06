@@ -35,7 +35,14 @@ const Footer = () => {
     link: "https://github.com/vidakpop",
     icon: <FaGithub />,
   };
-
+  const DeveloperLinks = [
+    { icon: <FaGithub />, link: "https://github.com/vidakpop" },
+    
+    { icon: <FaPhone />, link: "tel:+254707091841" },
+    { icon: <FaWhatsapp />, link: "https://wa.me/254707091841?text=Hi%20Cyberjiutsu!%20I%20would%20like%20to%20inquire%20about%20your%20services." },
+     { icon: <FaEnvelope />, link: "mailto:cyberjiutsu@gmail.com" },
+    { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/davis-ngetich-690b6521b" },
+  ];
   const socialLinks = [
     { icon: <FaFacebook />, link: "https://www.facebook.com/profile.php?id=61552745588338&mibextid=ZbWKwL" },
     
