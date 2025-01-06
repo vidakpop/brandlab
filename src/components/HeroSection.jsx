@@ -72,7 +72,7 @@ const HeroSection = () => {
           typeSpeed={50}
           backSpeed={40}
           loop
-          className="text-lg sm:text-xl text-indigo-300"
+          className="text-lg sm:text-xl text-[#ff6f61]"
         />
 
         <p className="mt-4 text-sm sm:text-lg text-gray-300">
