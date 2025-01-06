@@ -183,17 +183,20 @@ const Footer = () => {
           >
             {developerInfo.name}
           </motion.a>
-          <motion.a
-               
-                href={developerInfo.link}
+          <div className="flex space-x-4" >
+            {socialLinks.map((social, index) => (
+              <motion.a
+                key={index}
+                href={social.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2 }}
-                className="text-gray-300 hover:text-indigo-400 text-3xl mt-4 center"
+                className="text-gray-300 hover:text-indigo-400 text-3xl"
               >
-                {developerInfo.icon}
+                {social.icon}
               </motion.a>
-
+            ))}
+          </div>
         </div>
 
         {/* Social Media Links */}
