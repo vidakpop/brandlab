@@ -168,6 +168,27 @@ const Footer = () => {
           </div>
         </div>
 
+                {/* Social Media Links */}
+        <div>
+          <h2 className="text-2xl font-bold mb-4">Follow Us</h2>
+          <p className="text-gray-400 mb-6">
+            Stay connected with us on social media.
+          </p>
+          <div className="flex space-x-4">
+            {socialLinks.map((social, index) => (
+              <motion.a
+                key={index}
+                href={social.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.2 }}
+                className="text-gray-300 hover:text-indigo-400 text-3xl"
+              >
+                {social.icon}
+              </motion.a>
+            ))}
+          </div>
+        </div>
         {/* Developer Section */}
         <div>
           <h2 className="text-2xl font-bold mb-4">Developer</h2>
@@ -186,28 +207,6 @@ const Footer = () => {
           
           <div className="flex space-x-4 mb-4" >
             {DeveloperLinks.map((social, index) => (
-              <motion.a
-                key={index}
-                href={social.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.2 }}
-                className="text-gray-300 hover:text-indigo-400 text-3xl"
-              >
-                {social.icon}
-              </motion.a>
-            ))}
-          </div>
-        </div>
-
-        {/* Social Media Links */}
-        <div>
-          <h2 className="text-2xl font-bold mb-4">Follow Us</h2>
-          <p className="text-gray-400 mb-6">
-            Stay connected with us on social media.
-          </p>
-          <div className="flex space-x-4">
-            {socialLinks.map((social, index) => (
               <motion.a
                 key={index}
                 href={social.link}
