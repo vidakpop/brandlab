@@ -66,15 +66,10 @@ const TheMergerSection = () => {
         The Merger Program is designed to create brands that thrive in the digital space, with a primary focus on LinkedIn. Through this program, participants gain the skills and resources needed to stand out, achieve visibility, and make a lasting impact in their fields.
         </p>
         <p className="text-lg text-gray-300 mb-6">
-          The Main Platform Focus is LinkedIn
-        </p>
-        <p className="text-lg text-gray-300 mb-6">
-          The Program is inclusive of:
-        </p>
-        <p className="text-lg text-gray-300 mb-6">
-        20 day LinkedIn Posting Challenge, 5 Training Sessions, Mentorship and Reviews
+        By the end of the program, participants transform into powerhouses, equipped to navigate the digital landscape with confidence and expertise.
         </p>
         
+  
         <div className="grid md:grid-cols-3 gap-8">
           {cohorts.map((cohort, index) => (
             <motion.div
