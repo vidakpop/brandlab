@@ -59,9 +59,23 @@ const AboutSection = () => {
         Our consultancy is driven by a team of dedicated professionals committed to crafting branding solutions that stand the test of time. Beyond the first consultation, we deliver efficient, tailored, and top-notch services both inside and outside the boardroom.
 
         </p>
-        <p>
+        <p className='text-lg text-gray-300 mb-6'>
         With expertise in digital strategy, brand consulting, and content creation, our founder, Imelda, has successfully transformed numerous brands and careers, positioning them for sustained growth and success.
         </p>
+        <motion.h3
+          initial={{ opacity: 0, y: -30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="text-5xl font-extrabold text-blue neon-glow mb-6"
+        >
+          Our Vision
+        </motion.h3>
+
+        <p className="text-lg text-gray-300 mb-6">
+          Creating visible, impactful brands that thrive in a dynamic world.
+        </p>
+          
+
 
         {/* Animated Stats Section */}
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6">
