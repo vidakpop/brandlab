@@ -67,17 +67,17 @@ const ProfileSection = () => {
           />
           <div className="text-left text-gray-300 space-y-4">
             <p>
-            Imelda Mugambi, the Visionary behind Imelda's Brand Lab is a dynamic and driven individual with a passion for Branding and digital excellence.
+            Imelda Mugambi, the visionary behind Imelda's Brand Lab, is a dynamic leader, speaker, and strategist with an unwavering passion for branding and digital excellence.
             
             </p>
             <p>
-            With experience in digital marketing, communication and public relations, Imelda has track record of helping individuals and businesses achieve digital excellence.
+            With extensive experience in Digital Marketing, Communication, and Public Relations, Imelda has consistently helped individuals and businesses achieve remarkable results in the digital space.
             </p>
             <p>
-              Her unique blend of creativity, strategy, and mentorship sets her apart as
-              a leader in the field. Whether it's building a personal brand, crafting
-              compelling content, or designing impactful strategies, Imelda is committed
-              to helping her clients shine.
+            As the creator of The Merger Program, she empowers participants to build thriving brands on LinkedIn, equipping them with the skills and tools to stand out, achieve visibility, and make a lasting impact.
+            </p>
+            <p>
+            Her unique blend of creativity, strategic insight, and mentorship sets her apart as a powerhouse in her field. Whether it’s building a personal brand, crafting compelling content, or designing impactful digital strategies, Imelda is dedicated to helping her clients shine.
             </p>
           </div>
         </motion.div>
