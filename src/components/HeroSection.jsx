@@ -10,13 +10,13 @@ const HeroSection = () => {
       className="relative h-screen flex items-center justify-center bg-black overflow-hidden"
     >
       {/* Video Background */}
-      <video
+     {/* <video
         className="absolute inset-0 w-full h-full object-cover"
         src={main} // Replace with the path to your video
         autoPlay
         loop
         muted
-      />
+      />*/}
 
       {/* Cyberpunk Glow Background Elements */}
       <div className="absolute inset-0">
