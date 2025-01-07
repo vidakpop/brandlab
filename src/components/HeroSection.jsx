@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ReactTyped as Typed } from "react-typed";
-import main from '../assets/brand1.mp4';
+//import main from '../assets/brand.mp4';
 
 const HeroSection = () => {
   return (
