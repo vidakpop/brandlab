@@ -83,7 +83,7 @@ const AboutSection = () => {
             whileHover={{ scale: 1.1 }}
             className="flex flex-col items-center"
           >
-            <h3 className="text-4xl font-bold text-[#ff6f61] neon-glow">100+</h3>
+            <h3 className="text-4xl font-bold text-[#ff6f61]">100+</h3>
             <p className="text-gray-300">Brands Empowered</p>
           </motion.div>
 
@@ -91,7 +91,7 @@ const AboutSection = () => {
             whileHover={{ scale: 1.1 }}
             className="flex flex-col items-center"
           >
-            <h3 className="text-4xl font-bold text-[#ff6f61] neon-glow">150+</h3>
+            <h3 className="text-4xl font-bold text-[#ff6f61]">150+</h3>
             <p className="text-gray-300">Careers Transformed</p>
           </motion.div>
 
@@ -99,7 +99,7 @@ const AboutSection = () => {
             whileHover={{ scale: 1.1 }}
             className="flex flex-col items-center"
           >
-            <h3 className="text-4xl font-bold text-[#ff6f61] neon-glow">
+            <h3 className="text-4xl font-bold text-[#ff6f61]">
               1 Year
             </h3>
             <p className="text-gray-300">Industry Experience</p>
