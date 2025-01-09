@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const TheMergerSection = () => {
+  {/*create section for the cohorts */}
   const cohorts = [
     {
       title: "April Cohort",
