@@ -58,7 +58,10 @@ const TeamSection = () => {
                             />
 
                         </div>
-                        
+                        <h3 className='text-2xl font-semibold text-white text-center mb-2'>
+                            {member.name}
+                        </h3>
+
 
                     </div>
                 ))} 
