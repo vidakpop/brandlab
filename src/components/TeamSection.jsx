@@ -50,8 +50,15 @@ const TeamSection = () => {
                 {teamMenbers.map((member,index)=>(
                     <div key={index}
                          className='group relative bg-white bg-opacity-10 p-6 rounded-3xl shadow-lg hover:shadow-2xl transform hover:-translate-y-4 transition-all duration-300 ease-in-out hover:scale-105'
-                         
+
                     >
+                        <div className='relative overflow-hidden rounded-full h-40 w-40 mx-auto mb-6'>
+                            <img src={member.photo} alt={`${member.name}'s photo`} 
+                                className='object-cover w-full h-full rounded-full group-hover:rotate-12 group-hover:scale-110 transition-transform duration-700'
+                            />
+
+                        </div>
+                        
 
                     </div>
                 ))} 
