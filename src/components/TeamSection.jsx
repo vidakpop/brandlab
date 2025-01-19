@@ -1,4 +1,4 @@
-import { section } from 'framer-motion/client'
+import { div, section } from 'framer-motion/client'
 import React from 'react'
 
 const TeamSection = () => {
@@ -48,7 +48,12 @@ const TeamSection = () => {
             </h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-col-4 gap-10'>
                 {teamMenbers.map((member,index)=>(
-                    
+                    <div key={index}
+                         className='group relative bg-white bg-opacity-10 p-6 rounded-3xl shadow-lg hover:shadow-2xl transform hover:-translate-y-4 transition-all duration-300 ease-in-out hover:scale-105'
+                         
+                    >
+
+                    </div>
                 ))} 
 
             </div>
