@@ -71,6 +71,7 @@ const TeamSection = () => {
                         >
                             View LinkedIn Profile
                         </a>
+                        
 
                     </div>
                 ))} 
