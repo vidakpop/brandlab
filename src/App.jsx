@@ -10,7 +10,7 @@ import ProfileSection from './components/ProfileSection'
 import TheMergerSection from './components/TheMergerSection'
 import ServicesSection from './components/ServicesSection'
 import Footer from './components/Footer'
-
+import TeamSection from './components/TeamSection'
 const App = () => {
   return (
     <div className='bg-gray-50 text-gray-900'> 
@@ -19,6 +19,7 @@ const App = () => {
       <HeroSection />
       <AboutSection />
       <ProfileSection />
+      <TeamSection/>
       <TheMergerSection />  
       <ServicesSection />
       <Footer/>
