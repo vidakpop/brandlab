@@ -61,7 +61,16 @@ const TeamSection = () => {
                         <h3 className='text-2xl font-semibold text-white text-center mb-2'>
                             {member.name}
                         </h3>
-
+                        <p className='text-blue-400 text-center mb-4'>
+                            {member.position}
+                        </p>
+                        <a href={member.linkedin}
+                           target='_blank'
+                           rel='noopener noreferrer'
+                           className='block text-center text-sm text-gray-300 hover:text-blue-500 transition-colors'
+                        >
+                            View LinkedIn Profile
+                        </a>
 
                     </div>
                 ))} 
