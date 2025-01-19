@@ -1,3 +1,4 @@
+import { section } from 'framer-motion/client'
 import React from 'react'
 
 const TeamSection = () => {
@@ -40,7 +41,9 @@ const TeamSection = () => {
         },
     ]
   return (
-    <div>TeamSection</div>
+    <section className='bg-gradient-to-br from -black via-gray-900 to-blue-900 py-16'>
+
+    </section>
   )
 }
 
