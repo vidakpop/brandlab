@@ -43,7 +43,7 @@ const TeamSection = () => {
   return (
     <section className='bg-gradient-to-br from -black via-gray-900 to-blue-900 py-16'>
         <div className='container mx-auto px-6'>
-            <h2 className='text-4xl md:text-5xl font-bold text-white text-center mb-'>
+            <h2 className='text-4xl md:text-5xl font-bold text-white text-center mb-12'>
                 Meet Our Team
             </h2>
 
