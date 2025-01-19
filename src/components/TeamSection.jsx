@@ -46,7 +46,10 @@ const TeamSection = () => {
             <h2 className='text-4xl md:text-5xl font-bold text-white text-center mb-12'>
                 Meet Our Team
             </h2>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-col-4 gap-10'> 
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-col-4 gap-10'>
+                {teamMenbers.map((member,index)=>(
+                    
+                ))} 
 
             </div>
 
