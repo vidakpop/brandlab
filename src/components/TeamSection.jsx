@@ -71,7 +71,9 @@ const TeamSection = () => {
                         >
                             View LinkedIn Profile
                         </a>
-                        
+                        <div className='absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 opacity-0 group-hover:opacity-20 rounded-3xl transition-opacity duration-500'>
+
+                        </div>
 
                     </div>
                 ))} 
