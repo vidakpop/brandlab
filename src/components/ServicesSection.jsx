@@ -43,7 +43,7 @@ const serviceCategories = [
         icon: <FaChartLine />,
         title: "Personal and Business Brand Development",
         description:
-          "Craft cohesive brand identities that align with goals, audience, and industry trends.",
+          "Crafting cohesive brand identities that align with your goals, audience, and industry trends.",
       },
       {
         icon: <FaBuilding />,
