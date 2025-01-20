@@ -48,7 +48,7 @@ const TeamSection = () => {
     <section className='bg-gradient-to-br from-black via-gray-900 to-blue-900 py-16'>
         <div className='container mx-auto px-6'>
             <h2 className='text-4xl md:text-5xl font-bold text-white text-center mb-12'>
-                Meet Our Team
+                The Minds Behind the Magic
             </h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-col-4 gap-10'>
                 {teamMenbers.map((member,index)=>(
