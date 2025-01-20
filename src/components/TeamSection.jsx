@@ -3,6 +3,7 @@ import React from 'react'
 import imelda from '../assets/imelda1.jpg'
 import patience from '../assets/PATIENCE.jpeg'
 import evelyne from '../assets/EVE.jpeg'
+import sue from '../assets/SUE.jpeg'
 const TeamSection = () => {
     const teamMenbers=[
         {
@@ -24,10 +25,10 @@ const TeamSection = () => {
             photo:patience,
         },
         {
-            name:'Imelda Mugambi',
+            name:'Susan Nungari Kabochi',
             position:'PR and Marketing Specialist',
             linkedin:'https://www.linkedin.com/in/imeldamugambi/', 
-            photo:"",
+            photo:sue,
         },
         {
             name:'Evelyne Kioko',
