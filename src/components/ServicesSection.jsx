@@ -95,7 +95,13 @@ const serviceCategories = [
         icon: <FaHandsHelping />,
         title: "Leadership Development and Coaching",
         description:
-          "Personalized coaching for visibility, confidence, and professional leadership alignment.",
+          "Empower professionals with personalized coaching for visibility, confidence, and leadership.Focus on aligning personal growth with professional success.",
+      },
+      {
+        icon: <FaHandsHelping />,
+        title: "Workshops and Training Programs",
+        description:
+          "Custom workshops on digital strategy, storytelling, social media etiquette, and personal branding for teams and organizations.",
       },
     ],
   },
