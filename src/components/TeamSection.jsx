@@ -2,7 +2,7 @@ import { div, section } from 'framer-motion/client'
 import React from 'react'
 import imelda from '../assets/imelda1.jpg'
 import patience from '../assets/PATIENCE.jpeg'
-
+import evelyne from '../assets/EVE.jpeg'
 const TeamSection = () => {
     const teamMenbers=[
         {
@@ -30,10 +30,10 @@ const TeamSection = () => {
             photo:"",
         },
         {
-            name:'Imelda Mugambi',
+            name:'Evelyne Kioko',
             position:'Community Manager / Moderator',
             linkedin:'https://www.linkedin.com/in/imeldamugambi/',
-            photo:"",
+            photo:evelyne,
         },
         {
             name:'Imelda Mugambi',
