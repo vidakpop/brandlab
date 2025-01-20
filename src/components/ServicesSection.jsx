@@ -18,6 +18,12 @@ const serviceCategories = [
     services: [
       {
         icon: <FaBullhorn />,
+        title: "The Merger Program",
+        description:
+          "Our flagship program empowers professionals and businesses to build thriving brands, primarily on LinkedIn. Participants gain visibility, impact, and tools to position themselves as powerhouses in their fields. Includes post-program support like alumni networks and progress tracking.",
+      },
+      {
+        icon: <FaBullhorn />,
         title: "Social Media Audits, Management, and Marketing",
         description:
           "Tailored audits, comprehensive management, and customized campaigns to enhance visibility and growth.",
