@@ -4,14 +4,16 @@ import imelda from '../assets/imelda1.jpg'
 import patience from '../assets/PATIENCE.jpeg'
 import evelyne from '../assets/EVE.jpeg'
 import sue from '../assets/SUE.jpeg'
+import davis from '../assets/davis.jpg'
+import lewis from '../assets/lewis.jpg'
 const TeamSection = () => {
     const teamMenbers=[
-        {
+       /* {
             name:'Imelda Mugambi',
             position:'Founder & CEO',
             linkedin:'https://www.linkedin.com/in/imelda-mugambi-digitalconsultant',
             photo:imelda,
-        },
+        /},*/
         
         {
             name:'Patience Njeri',
@@ -29,7 +31,7 @@ const TeamSection = () => {
             name:'Lewis Kirubi',
             position:'Creative Lead',
             linkedin:'https://www.linkedin.com/in/imeldamugambi/',
-            photo:'',
+            photo:lewis,
         },
         {
             name:'Evelyne Kioko',
@@ -41,7 +43,7 @@ const TeamSection = () => {
             name:'Davis Ngetich',
             position:'The Nerd Geek',
             linkedin:'https://www.linkedin.com/in/davis-ngetich-690b6521b',
-            photo:"",
+            photo:davis,
         },
     ]
   return (
