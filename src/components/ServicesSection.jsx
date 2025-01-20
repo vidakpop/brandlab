@@ -72,13 +72,13 @@ const serviceCategories = [
         icon: <FaPencilAlt />,
         title: "Content Strategy and Creation",
         description:
-          "Create tailored blog posts, video scripts, and social media content for industry relevance.",
+          "End-to-end content solutions, including blog posts, video scripts, and social media content tailored for your industry.",
       },
       {
         icon: <FaFeatherAlt />,
         title: "Copywriting and Ghostwriting",
         description:
-          "Persuasive and results-driven writing for campaigns, proposals, and executive communication.",
+          "Persuasive, professional, and results-driven writing for marketing campaigns, proposals, and executive communication.",
       },
       {
         icon: <FaFileAlt />,
