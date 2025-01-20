@@ -1,43 +1,98 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {
-  FaBriefcase,
-  FaLaptop,
-  FaPencilAlt,
-  FaChartLine,
-  FaCogs,
   FaBullhorn,
   FaLinkedin,
-  FaPenNib,
+  FaPencilAlt,
   FaBuilding,
+  FaChartLine,
   FaLightbulb,
   FaFileAlt,
   FaFeatherAlt,
   FaHandsHelping,
 } from "react-icons/fa";
 
-const services = [
-  { icon: <FaBullhorn />, title: "Social Media Audits, Management and Marketing" },
-  { icon: <FaLinkedin />, title: "LinkedIn Optimization" },
-  { icon: <FaPencilAlt />, title: "Content Strategy and Content Creation" },
-  { icon: <FaBuilding />, title: "Organisational Communications Strategy" },
-  { icon: <FaChartLine />, title: "Business Brand Development" },
-  { icon: <FaLightbulb />, title: "Brand Strategy (Personal and Organizational)" },
-  { icon: <FaFileAlt />, title: "Technical Writing" },
-  { icon: <FaFeatherAlt />, title: "Copy and Ghost Writing" },
-  { icon: <FaHandsHelping />, title: "Empowerment Coaching" },
+const serviceCategories = [
+  {
+    category: "Digital Excellence",
+    services: [
+      {
+        icon: <FaBullhorn />,
+        title: "Social Media Audits, Management, and Marketing",
+        description:
+          "Tailored audits, comprehensive management, and customized campaigns to enhance visibility and growth.",
+      },
+      {
+        icon: <FaLinkedin />,
+        title: "LinkedIn Optimization",
+        description:
+          "Optimize profiles for visibility, connection building, and thought leadership for personal and business accounts.",
+      },
+    ],
+  },
+  {
+    category: "Brand Strategy",
+    services: [
+      {
+        icon: <FaChartLine />,
+        title: "Personal and Business Brand Development",
+        description:
+          "Craft cohesive brand identities that align with goals, audience, and industry trends.",
+      },
+      {
+        icon: <FaBuilding />,
+        title: "Organizational Communications Strategy",
+        description:
+          "Enhance internal and external communications through tailored strategies and frameworks.",
+      },
+    ],
+  },
+  {
+    category: "Content Excellence",
+    services: [
+      {
+        icon: <FaPencilAlt />,
+        title: "Content Strategy and Creation",
+        description:
+          "Create tailored blog posts, video scripts, and social media content for industry relevance.",
+      },
+      {
+        icon: <FaFeatherAlt />,
+        title: "Copywriting and Ghostwriting",
+        description:
+          "Persuasive and results-driven writing for campaigns, proposals, and executive communication.",
+      },
+      {
+        icon: <FaFileAlt />,
+        title: "Technical Writing",
+        description:
+          "Clear and impactful documentation, proposals, and specialized reports.",
+      },
+    ],
+  },
+  {
+    category: "Empowerment & Coaching",
+    services: [
+      {
+        icon: <FaHandsHelping />,
+        title: "Leadership Development and Coaching",
+        description:
+          "Personalized coaching for visibility, confidence, and professional leadership alignment.",
+      },
+    ],
+  },
 ];
 
 const ServicesSection = () => {
   return (
     <div
       id="services"
-      className="relative max-w-7xl mx-auto px-6 py-20 text-center bg-black overflow-hidden text-white"
+      className="relative max-w-7xl mx-auto px-6 py-20 text-center bg-gradient-to-br from-black via-gray-900 to-blue-900 text-white overflow-hidden"
     >
-      {/* Background Layers */}
+      {/* Background Animations */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <motion.div
-          className="absolute top-0 left-0 w-[500px] h-[500px] bg-blue-400 opacity-30 rounded-full filter blur-3xl"
+          className="absolute top-0 left-0 w-[600px] h-[600px] bg-blue-400 opacity-30 rounded-full filter blur-3xl"
           animate={{
             scale: [0.8, 1.2, 0.8],
             rotate: [0, 360],
@@ -49,7 +104,7 @@ const ServicesSection = () => {
           }}
         />
         <motion.div
-          className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-blue-500 opacity-30 rounded-full filter blur-3xl"
+          className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-blue-500 opacity-30 rounded-full filter blur-3xl"
           animate={{
             scale: [1.2, 0.8, 1.2],
             rotate: [0, -360],
@@ -67,41 +122,48 @@ const ServicesSection = () => {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="text-5xl font-extrabold text-center neon-glow mb-16"
+        className="text-5xl font-extrabold neon-glow mb-16"
       >
-        Our Services
+        Our Service Offerings
       </motion.h2>
 
-      {/* Services Grid */}
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {services.map((service, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 30 }}
+      {/* Service Categories */}
+      {serviceCategories.map((category, index) => (
+        <div key={index} className="mb-16">
+          {/* Category Title */}
+          <motion.h3
+            initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.2, duration: 0.8 }}
-            whileHover={{
-              scale: 1.1,
-              rotate: 2,
-              boxShadow: "0px 15px 30px rgba(0, 150, 255, 0.8)",
-            }}
-            className="relative bg-white/10 p-8 rounded-xl shadow-xl backdrop-blur-md border border-white/20 text-center"
+            transition={{ delay: index * 0.2, duration: 1 }}
+            className="text-3xl font-bold text-blue-300 mb-12"
           >
-            <div className="text-6xl mb-6 text-[#00aaff]">
-              {service.icon}
-            </div>
-            <motion.h3
-              whileHover={{ color: "#f43f5e" }}
-              className="text-xl font-semibold mb-4"
-            >
-              {service.title}
-            </motion.h3>
-            <motion.div
-              className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-transparent to-white opacity-10 rounded-xl z-10 hover:opacity-0 transition-all duration-500 ease-in-out"
-            />
-          </motion.div>
-        ))}
-      </div>
+            {category.category}
+          </motion.h3>
+
+          {/* Services Grid */}
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8">
+            {category.services.map((service, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: idx * 0.2, duration: 0.8 }}
+                whileHover={{
+                  scale: 1.1,
+                  boxShadow: "0px 15px 30px rgba(0, 200, 255, 0.8)",
+                }}
+                className="bg-white/10 p-8 rounded-xl shadow-xl backdrop-blur-md border border-white/20 text-left hover:cursor-pointer"
+              >
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="text-6xl text-[#00aaff]">{service.icon}</div>
+                  <h4 className="text-xl font-semibold">{service.title}</h4>
+                </div>
+                <p className="text-sm text-gray-300">{service.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
