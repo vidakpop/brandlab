@@ -15,7 +15,7 @@ import {
 const serviceCategories = [
   {
     category: "Digital Excellence",
-    services: [<
+    services: [
       {
         icon: <FaBullhorn />,
         title: "Social Media Audits, Management, and Marketing",
