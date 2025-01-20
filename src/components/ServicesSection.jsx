@@ -16,6 +16,7 @@ import { BsSignMergeRightFill } from "react-icons/bs";
 import { GrWorkshop } from "react-icons/gr";
 import { MdCrisisAlert,MdWorkspacePremium } from "react-icons/md";
 import { LuTrendingUpDown } from "react-icons/lu";
+import { GiArtificialIntelligence } from "react-icons/gi";
 
 
 const serviceCategories = [
@@ -121,7 +122,7 @@ const serviceCategories = [
           "Insights into industry trends and market shifts to inform branding and communication strategies.",
       },
       {
-        icon: <FaHandsHelping />,
+        icon: <GiArtificialIntelligence />,
         title: "AI-Assisted Strategy Development",
         description:
           "Utilize AI-driven tools for data analysis, trend forecasting, and strategic planning.",
