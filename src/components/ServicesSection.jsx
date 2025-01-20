@@ -49,7 +49,7 @@ const serviceCategories = [
         icon: <FaBuilding />,
         title: "Organizational Communications Strategy",
         description:
-          "Enhance internal and external communications through tailored strategies and frameworks.",
+          "Comprehensive audits and strategies to enhance internal and external communication.Includes tailored communication frameworks and employee engagement strategies.",
       },
     ],
   },
