@@ -24,13 +24,13 @@ const TeamSection = () => {
         {
             name:'Susan Nungari Kabochi',
             position:'PR and Marketing Specialist',
-            linkedin:'https://www.linkedin.com/in/susan-kabochi-5154a1237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', 
+            linkedin:'https://www.linkedin.com/in/susan-kabochi-5154a1237', 
             photo:sue,
         },
         {
             name:'Lewis Kirubi',
             position:'Creative Lead',
-            linkedin:'https://www.linkedin.com/in/imeldamugambi/',
+            linkedin:'https://www.linkedin.com/in/imelda-mugambi-digitalconsultant',
             photo:lewis,
         },
         {
@@ -70,6 +70,7 @@ const TeamSection = () => {
                         <p className='text-blue-400 text-center mb-4'>
                             {member.position}
                         </p>
+                        <div className='relative z-10'> 
                         <a href={member.linkedin}
                            target='_blank'
                            rel='noopener noreferrer'
@@ -77,6 +78,7 @@ const TeamSection = () => {
                         >
                             View LinkedIn Profile
                         </a>
+                        </div>
                         <div className='absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 opacity-0 group-hover:opacity-20 rounded-3xl transition-opacity duration-500'>
 
                         </div>
