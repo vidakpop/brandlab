@@ -15,7 +15,7 @@ const TeamSection = () => {
         
         {
             name:'Patience Njeri',
-            position:'Finance Lead',
+            position:'Finance and Acountant',
             linkedin:'https://www.linkedin.com/in/patience-njeri-0b4316291',
             photo:patience,
         },
@@ -26,7 +26,7 @@ const TeamSection = () => {
             photo:sue,
         },
         {
-            name:'Imelda Mugambi',
+            name:'Lewis Kirubi',
             position:'Creative Lead',
             linkedin:'https://www.linkedin.com/in/imeldamugambi/',
             photo:'',
