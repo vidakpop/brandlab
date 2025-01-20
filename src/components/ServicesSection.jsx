@@ -14,6 +14,8 @@ import {
 } from "react-icons/fa";
 import { BsSignMergeRightFill } from "react-icons/bs";
 import { GrWorkshop } from "react-icons/gr";
+import { MdCrisisAlert } from "react-icons/md";
+
 
 const serviceCategories = [
   {
@@ -55,7 +57,7 @@ const serviceCategories = [
           "Comprehensive audits and strategies to enhance internal and external communication.Includes tailored communication frameworks and employee engagement strategies.",
       },
       {
-        icon: <FaBuilding />,
+        icon: <MdCrisisAlert />,
         title: "Reputation and Crisis Management",
         description:
           "Proactive reputation building and strategic solutions for handling PR challenges.",
