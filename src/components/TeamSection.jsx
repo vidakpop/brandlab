@@ -12,6 +12,19 @@ const TeamSection = () => {
             linkedin:'https://www.linkedin.com/in/imeldamugambi/',
             photo:imelda,
         },
+        
+        {
+            name:'Patience Njeri',
+            position:'Finance Lead',
+            linkedin:'https://www.linkedin.com/in/patience-njeri-0b4316291',
+            photo:patience,
+        },
+        {
+            name:'Susan Nungari Kabochi',
+            position:'PR and Marketing Specialist',
+            linkedin:'https://www.linkedin.com/in/susan-kabochi-5154a1237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', 
+            photo:sue,
+        },
         {
             name:'Imelda Mugambi',
             position:'Creative Lead',
@@ -19,25 +32,13 @@ const TeamSection = () => {
             photo:'',
         },
         {
-            name:'Patience Njeri',
-            position:'Finance Lead',
-            linkedin:'https://www.linkedin.com/in/imeldamugambi/',
-            photo:patience,
-        },
-        {
-            name:'Susan Nungari Kabochi',
-            position:'PR and Marketing Specialist',
-            linkedin:'https://www.linkedin.com/in/imeldamugambi/', 
-            photo:sue,
-        },
-        {
             name:'Evelyne Kioko',
             position:'Community Manager / Moderator',
-            linkedin:'https://www.linkedin.com/in/imeldamugambi/',
+            linkedin:'https://linkedin.com/in/evelyne-kioko-eventmoderator',
             photo:evelyne,
         },
         {
-            name:'Imelda Mugambi',
+            name:'Davis Ngetich',
             position:'The Nerd Geek',
             linkedin:'https://www.linkedin.com/in/imeldamugambi/',
             photo:"",
