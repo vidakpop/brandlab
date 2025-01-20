@@ -73,9 +73,9 @@ const ProfileSection = () => {
             <p>
             With extensive experience in Digital Marketing, Communication, and Public Relations, Imelda has consistently helped individuals and businesses achieve remarkable results in the digital space.
             </p>
-            <p>
+            {/*<p>
             As the creator of The Merger Program, she empowers participants to build thriving brands on LinkedIn, equipping them with the skills and tools to stand out, achieve visibility, and make a lasting impact.
-            </p>
+            </p>*/}
             <p>
             Her unique blend of creativity, strategic insight, and mentorship sets her apart as a powerhouse in her field. Whether it’s building a personal brand, crafting compelling content, or designing impactful digital strategies, Imelda is dedicated to helping her clients shine.
             </p>
