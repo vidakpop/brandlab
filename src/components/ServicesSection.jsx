@@ -51,6 +51,18 @@ const serviceCategories = [
         description:
           "Comprehensive audits and strategies to enhance internal and external communication.Includes tailored communication frameworks and employee engagement strategies.",
       },
+      {
+        icon: <FaBuilding />,
+        title: "Reputation and Crisis Management",
+        description:
+          "Proactive reputation building and strategic solutions for handling PR challenges.",
+      },
+      {
+        icon: <FaBuilding />,
+        title: "Employee Branding Programs",
+        description:
+          "Equip your team with professional LinkedIn profiles and personal branding skills to reflect your company’s vision.",
+      },
     ],
   },
   {
