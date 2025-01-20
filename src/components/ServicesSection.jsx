@@ -26,13 +26,13 @@ const serviceCategories = [
         icon: <FaBullhorn />,
         title: "Social Media Audits, Management, and Marketing",
         description:
-          "Tailored audits, comprehensive management, and customized campaigns to enhance visibility and growth.",
+          "Tailored audits to assess your current social media presence.Comprehensive management services to align platforms with your brand goals.",
       },
       {
         icon: <FaLinkedin />,
         title: "LinkedIn Optimization",
         description:
-          "Optimize profiles for visibility, connection building, and thought leadership for personal and business accounts.",
+          "Personal and business profile optimization for visibility, connection building, and thought leadership.",
       },
     ],
   },
