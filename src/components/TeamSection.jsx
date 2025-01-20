@@ -9,7 +9,7 @@ const TeamSection = () => {
         {
             name:'Imelda Mugambi',
             position:'Founder & CEO',
-            linkedin:'https://www.linkedin.com/in/imeldamugambi/',
+            linkedin:'https://www.linkedin.com/in/imelda-mugambi-digitalconsultant',
             photo:imelda,
         },
         
@@ -40,7 +40,7 @@ const TeamSection = () => {
         {
             name:'Davis Ngetich',
             position:'The Nerd Geek',
-            linkedin:'https://www.linkedin.com/in/imeldamugambi/',
+            linkedin:'https://www.linkedin.com/in/davis-ngetich-690b6521b',
             photo:"",
         },
     ]
