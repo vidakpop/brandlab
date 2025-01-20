@@ -1,4 +1,4 @@
-import { div, section } from 'framer-motion/client'
+
 import React from 'react'
 import imelda from '../assets/imelda1.jpg'
 import patience from '../assets/PATIENCE.jpeg'
