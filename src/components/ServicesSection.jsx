@@ -13,6 +13,7 @@ import {
   FaHandsHelping,
 } from "react-icons/fa";
 import { BsSignMergeRightFill } from "react-icons/bs";
+import { GrWorkshop } from "react-icons/gr";
 
 const serviceCategories = [
   {
