@@ -135,7 +135,7 @@ const ServicesSection = () => {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.2, duration: 1 }}
-            className="text-3xl font-bold text-blue-300 mb-12"
+            className="text-3xl font-bold text-[#ff6f61] mb-12"
           >
             {category.category}
           </motion.h3>
