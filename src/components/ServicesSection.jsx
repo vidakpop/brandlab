@@ -14,7 +14,7 @@ import {
 } from "react-icons/fa";
 import { BsSignMergeRightFill } from "react-icons/bs";
 import { GrWorkshop } from "react-icons/gr";
-import { MdCrisisAlert } from "react-icons/md";
+import { MdCrisisAlert,MdWorkspacePremium } from "react-icons/md";
 
 
 const serviceCategories = [
@@ -63,7 +63,7 @@ const serviceCategories = [
           "Proactive reputation building and strategic solutions for handling PR challenges.",
       },
       {
-        icon: <FaBuilding />,
+        icon: <MdWorkspacePremium />,
         title: "Employee Branding Programs",
         description:
           "Equip your team with professional LinkedIn profiles and personal branding skills to reflect your company’s vision.",
