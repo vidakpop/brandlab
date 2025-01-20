@@ -15,6 +15,7 @@ import {
 import { BsSignMergeRightFill } from "react-icons/bs";
 import { GrWorkshop } from "react-icons/gr";
 import { MdCrisisAlert,MdWorkspacePremium } from "react-icons/md";
+import { LuTrendingUpDown } from "react-icons/lu";
 
 
 const serviceCategories = [
@@ -114,7 +115,7 @@ const serviceCategories = [
     category: "Market Intelligence Services",
     services: [
       {
-        icon: <FaHandsHelping />,
+        icon: <LuTrendingUpDown />,
         title: "Market Research and Trend Analysis",
         description:
           "Insights into industry trends and market shifts to inform branding and communication strategies.",
