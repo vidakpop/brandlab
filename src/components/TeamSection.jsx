@@ -1,5 +1,6 @@
 import { div, section } from 'framer-motion/client'
 import React from 'react'
+import imelda from '../assets/imelda1.jpg'
 
 const TeamSection = () => {
     const teamMenbers=[
@@ -7,13 +8,13 @@ const TeamSection = () => {
             name:'Imelda Mugambi',
             position:'Founder & CEO',
             linkedin:'https://www.linkedin.com/in/imeldamugambi/',
-            photo:"",
+            photo:imelda,
         },
         {
             name:'Imelda Mugambi',
             position:'Creative Lead',
             linkedin:'https://www.linkedin.com/in/imeldamugambi/',
-            photo:"",
+            photo:'',
         },
         {
             name:'Imelda Mugambi',
