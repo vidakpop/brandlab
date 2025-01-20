@@ -101,7 +101,7 @@ const serviceCategories = [
           "Empower professionals with personalized coaching for visibility, confidence, and leadership.Focus on aligning personal growth with professional success.",
       },
       {
-        icon: <FaHandsHelping />,
+        icon: <GrWorkshop />,
         title: "Workshops and Training Programs",
         description:
           "Custom workshops on digital strategy, storytelling, social media etiquette, and personal branding for teams and organizations.",
