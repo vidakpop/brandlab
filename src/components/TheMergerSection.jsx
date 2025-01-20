@@ -9,7 +9,7 @@ const TheMergerSection = () => {
       description: "Your future self will thank you for acting fast. And hey, if you wait too long, you might just have to settle for FOMO. 😜",
       link: "https://forms.gle/usu93TdQ9xMYWgTw5", // Replace with actual Google Form link
     },
-    {
+    /*{
       title: "August Cohort",
       description: "This offer is hotter than your morning coffee ☕ and it's slipping away fast! Don't let it pass you by",
       link: "https://forms.gle/aecrBUUbKq7WfkLZ8", // Replace with actual Google Form link
@@ -18,18 +18,18 @@ const TheMergerSection = () => {
       title: "December Cohort",
       description: "Don't be the one hearing about this deal after it's gone! 😱 Time's ticking, and the clock’s almost out. ⏰",
       link: "https://forms.gle/1udVpzk765RUGSxAA", // Replace with actual Google Form link
-    },
+    },*/
   ];
 
   return (
     <div
       id="merger"
-      className="relative max-w-7xl mx-auto px-6 py-20 text-center bg-black overflow-hidden text-white"
+      className="relative max-w-7xl mx-auto px-6 py-20 text-center bg-black overflow-hidden text-white "
     >
       {/* Background Layers */}
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <motion.div
-            className="absolute top-20 left-10 w-96 h-96 bg-blue-500 opacity-30 rounded-full filter blur-3xl"
+            className="absolute top-20 left-10 w-96 h-96 bg-blue-500 opacity-30 rounded-full filter blur-3xl "
             animate={{
           scale: [0.8, 1.2, 0.8],
           rotate: [0, 360],
@@ -71,12 +71,12 @@ const TheMergerSection = () => {
         </p>
         
   
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 justify-items-center">
           {cohorts.map((cohort, index) => (
             <motion.div
           key={index}
           whileHover={{ scale: 1.05 }}
-          className="relative bg-white/10 p-8 rounded-2xl shadow-xl backdrop-blur-md border border-white/20 text-left"
+          className="relative bg-white/10 p-8 rounded-2xl shadow-xl backdrop-blur-md border border-white/20 text-left "
             >
           <motion.h3
             initial={{ opacity: 0, y: 10 }}
