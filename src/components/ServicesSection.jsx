@@ -105,6 +105,23 @@ const serviceCategories = [
       },
     ],
   },
+  {
+    category: "Market Intelligence Services",
+    services: [
+      {
+        icon: <FaHandsHelping />,
+        title: "Market Research and Trend Analysis",
+        description:
+          "Insights into industry trends and market shifts to inform branding and communication strategies.",
+      },
+      {
+        icon: <FaHandsHelping />,
+        title: "AI-Assisted Strategy Development",
+        description:
+          "Utilize AI-driven tools for data analysis, trend forecasting, and strategic planning.",
+      },
+    ],
+  },
 ];
 
 const ServicesSection = () => {
